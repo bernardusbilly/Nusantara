@@ -1,0 +1,21 @@
+.cover {
+	background: rgba(0,0,0,0.3);
+	min-width: 100%;
+	min-height: 100%;
+	text-align: center;
+	color: #FFF;
+	font-family: "Roboto";
+}
+.header-1 {
+	padding-top: 25%;
+	font-size: 60px;
+}
+.header-2 {
+	font-size: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px dotted #FFF;
+}
+.header-3 {
+	border-top: 1px dotted #FFF;
+	font-size: 80px;
+}

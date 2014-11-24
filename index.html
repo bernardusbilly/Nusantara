@@ -1,5 +1,42 @@
 <html>
-<body>
-Nusantara
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="resources/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Personal CSS -->
+	<link href="resources/css/nusantara.css" rel="stylesheet">
+
+</head>
+<body style="position: relative; margin: 0;">
+<iframe id="background-video" style="position: absolute; z-index: -1; top: -10%; left: 0; overflow: hidden; width: 100%; min-height: 110%; overflow: hidden; opacity: 1;" frameborder="0" allowfullscreen="1" title="YouTube video player"src="https://www.youtube.com/embed/dgUAhSY3gfU?start=9&autoplay=1&modestbranding=0&controls=0&loop=1&rel=0&disablekb=1&enablejsapi=1&version=3&playerapiid=background-video&origin=https://www.bernardusbilly.com/Nusantara&allowfullscreen=false&wmode=transparent&iv_load_policy=3&html5=1"></iframe>
+<!-- <iframe id="mbYTP_ut-background-video" class="playerBox" style="position: absolute; z-index: 0; width: 1587.2px; height: 720px; top: 0px; left: 0px; overflow: hidden; opacity: 1; margin-top: -133.5px; margin-left: -153.6px;" frameborder="0" allowfullscreen="1" title="YouTube video player" width="640" height="360" src="https://www.youtube.com/embed/G44HP1P2V6s?autoplay=0&modestbranding=1&controls=0&showinfo=0&rel=0&enablejsapi=1&version=3&playerapiid=mbYTP_ut-background-video&origin=http%3A%2F%2Fwww.themoon.com&allowfullscreen=false&wmode=transparent&iv_load_policy=3&html5=1"></iframe> -->
+	<section class="cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+                    <div class="header-1">
+                        NUSANTARA 2015
+                    </div>
+                    <div class="header-2">
+                        by <img src="./resources/img/logo/bisa_logo.png" style="width: 50px;"/>
+                    </div>
+                    <div class="header-3">
+                        COMING SOON!
+                    </div>
+                </div>
+            </div>
+        </div>
+	</section>
+    <!-- jQuery Version 1.11.0 -->
+    <script src="resources/js/jquery-1.11.0.js"></script>
+    <script>
+    $(window).load(function() {
+    	var vid = $('#background-video');
+        vid.setVolume(0.1);
+    });
+    </script>
+    <script src="./resources/js/youtube_iframe_api.js"></script>
 </body>
 </html>
