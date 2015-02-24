@@ -19,3 +19,57 @@
 	border-top: 1px dotted #FFF;
 	font-size: 80px;
 }
+
+
+.header {
+	position: fixed;
+	z-index: 1;
+	text-align: center;
+	background: rgba(255,255,255,0.5);
+	width: 35px;
+	height: 100%;
+	bottom: 0;
+	right: 0;
+}
+
+body {
+	font-family: roboto;
+	color: #FFF;
+}
+.page1,
+.page2,
+.page3 {
+	background: rgba(0,0,0,0.1);
+	padding-top: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+#player {
+	left: -5%;
+	top: -5%;
+}
+.onepage-pagination {
+	top: 5%;
+}
+#page1-info {
+	position: absolute;
+	bottom: 5%;
+	right: 70px;
+	font-size: 15px;
+}
+#page3-info {
+	position: absolute;
+	bottom: 5%;
+	right: 70px;
+	font-size: 20px;
+}
+#btn-bisa {
+	position: absolute;
+	bottom: 5%;
+	right: 50px;
+}
+#btn-indiegogo {
+	position: absolute;
+	bottom: 5%;
+	right: 120px;
+}
