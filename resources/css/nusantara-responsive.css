@@ -1,0 +1,17 @@
+/* nusantara-responsive.css*/
+
+@media (max-width: 767px) {
+	#bg-nusantara {
+		margin-top: 50px;
+		width: 100%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+@media (min-width: 1200px) {
+
+}

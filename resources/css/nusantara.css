@@ -1,26 +1,8 @@
-.cover {
-	background: rgba(0,0,0,0.3);
-	min-width: 100%;
-	min-height: 100%;
+body {
+	font-family: roboto;
+	color: #333;
 	text-align: center;
-	color: #FFF;
-	font-family: "Roboto";
 }
-.header-1 {
-	padding-top: 25%;
-	font-size: 60px;
-}
-.header-2 {
-	font-size: 20px;
-	padding-bottom: 20px;
-	border-bottom: 1px dotted #FFF;
-}
-.header-3 {
-	border-top: 1px dotted #FFF;
-	font-size: 80px;
-}
-
-
 .header {
 	position: fixed;
 	z-index: 1;
@@ -31,45 +13,108 @@
 	bottom: 0;
 	right: 0;
 }
-
-body {
-	font-family: roboto;
-	color: #FFF;
-}
+.blank-page,
 .page1,
-.page2,
-.page3 {
+.page2 {
 	background: rgba(0,0,0,0.1);
-	padding-top: 40px;
 	font-size: 20px;
 	text-align: center;
+}
+.page4,
+.page6 {
+	text-align: center;
+	padding-top: 60px;
+	background: rgba(255,255,255,0.97);
+}
+.page3,
+.page5 {
+	text-align: center;
+	padding-top: 60px;
+	background: rgba(230,230,230,0.97);
 }
 #player {
 	left: -5%;
 	top: -5%;
 }
 .onepage-pagination {
-	top: 5%;
+	top: 15%;
 }
 #page1-info {
+	color: #fff;
+}
+#btn-mute {
+	cursor: pointer;
 	position: absolute;
-	bottom: 5%;
-	right: 70px;
-	font-size: 15px;
+	visibility: hidden;
+	color: #333;
+	top: 15px;
+	left: 5px;
+	padding: 5px;
+	border: 1px solid #333;
+	border-radius: 10px;
+}
+#btn-sound {
+	cursor: pointer;
+	position: absolute;
+	visibility: visible;
+	color: #333;
+	top: 15px;
+	left: 5px;
+	padding: 5px;
+	border: 1px solid #333;
+	border-radius: 10px;
+}
+#word-billy {
+	position: absolute;
+	bottom: 2%;
+	right: 90px;
+	font-size: 10px;
+}
+#page2-info {
+	text-align: center;
+	font-family: "Raleway";
+	position: absolute;
+	background: #fff;
+	background-size: 100%;
+	opacity: 1;
+	min-height: 100%;
+	min-width: 100%;
+}
+#bg-nusantara {
+	width: 38%;
 }
 #page3-info {
+	text-align: center;
+	color: #333;
+}
+.stock-photo {
+	height: 170px;
+	overflow: hidden;
+}
+#word-bisa {
 	position: absolute;
 	bottom: 5%;
 	right: 70px;
 	font-size: 20px;
 }
-#btn-bisa {
-	position: absolute;
-	bottom: 5%;
-	right: 50px;
-}
 #btn-indiegogo {
-	position: absolute;
-	bottom: 5%;
-	right: 120px;
+	bottom: 10%;
+}
+#page4-info {
+	text-align: center;
+}
+#page5-info {
+	text-align: center;
+}
+.photo-officer {
+	height: 180px;
+	overflow: hidden;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: url(desaturate.svg#greyscale);grayscale: 100%;
+}
+.photo-officer:hover {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+	filter: url(desaturate.svg#greyscale);grayscale: 0%;
 }
