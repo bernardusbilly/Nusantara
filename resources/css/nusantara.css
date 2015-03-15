@@ -13,6 +13,53 @@ body {
 	bottom: 0;
 	right: 0;
 }
+.photo-culture {
+	position: fixed;
+	text-align: left;
+	display: none;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	color: #fff;
+}
+#photo-batik {
+	background: url(../../resources/img/stock/batik.jpg) no-repeat;
+	background-size: cover;
+}
+#photo-wayang {
+	background: url(../../resources/img/stock/wayang.jpg) no-repeat;
+	background-size: cover;
+}
+#photo-angklung {
+	background: url(../../resources/img/stock/angklung.jpg) no-repeat;
+	background-size: cover;
+}
+#photo-tarijawa {
+	background: url(../../resources/img/stock/tarijawa.jpg) no-repeat;
+	background-size: cover;
+}
+#text-culture {
+	position: absolute;
+	z-index: 1;
+	background: rgba(255,255,255,0.5);
+	padding: 5px 20px;
+	border-radius: 10px;
+	top: 50px;
+	left: 80px;
+	font-size: 30px;
+}
+.btn-close {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	cursor: pointer;
+	border: 1px solid #fff;
+	border-radius: 30px;
+	font-size: 20px;
+	padding: 0px 11px 4px 11px;
+}
 .blank-page,
 .page1,
 .page2 {
@@ -90,6 +137,9 @@ body {
 .stock-photo {
 	height: 170px;
 	overflow: hidden;
+}
+.stock-photo-expand {
+	cursor: pointer;
 }
 #word-bisa {
 	position: absolute;

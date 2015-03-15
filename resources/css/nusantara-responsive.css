@@ -5,12 +5,28 @@
 		margin-top: 50px;
 		width: 100%;
 	}
+	.stock-photo {
+		height: 60px;
+	}
+	.stock-photo-expand {
+		height: 80px;
+	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
-
+	.stock-photo {
+		height: 150px;
+	}
+	.stock-photo-expand {
+		height: 150px;
+	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-
+	.stock-photo {
+		height: 150px;
+	}
+	.stock-photo-expand {
+		height: 150px;
+	}
 }
 @media (min-width: 1200px) {
 
