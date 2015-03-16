@@ -47,6 +47,7 @@
     <div id="page1-info">
       <span id="word-bisa">an event by <a href="http://www.bernardusbilly.com/BISA"><img src="./resources/img/logo/bisa_logo.png" style="width: 100px;"/></a></span>
       <span id="word-billy">Designed by Bernardus Billy Tjiptoning</span>
+      <span id="symbol-arrow"><span class="glyphicon glyphicon-menu-down"></span><br>Scroll to continue</span>
     </div>
   </section>
 
@@ -283,13 +284,15 @@
     var toggle = $(this).attr("data-toggle");
     console.log(toggle);
     $('#' + toggle).css("display", "block");
-    /*$('.stock-photo-expand').parent().removeClass("col-lg-3");
-    $('.stock-photo-expand').parent().addClass("col-lg-1");
-    $(this).parent().removeClass("col-lg-1");
-    $(this).parent().addClass("col-lg-9");*/
   });
   $('.btn-close').click(function() {
     $(this).parent().css("display","none");
   });
+
+  /*if $(document.body).hasClass("viewing-page-1") {
+    console.log("page1");
+  } else {
+    console.log("otherPage");
+  }*/
 </script>
 </html>
