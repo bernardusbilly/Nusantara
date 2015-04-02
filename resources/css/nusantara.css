@@ -3,6 +3,20 @@ body {
 	color: #333;
 	text-align: center;
 }
+
+h1 {
+	font-size: 50px;
+	font-weight: bold;
+}
+.font14 {
+	font-size: 14px;
+}
+.font30 {
+	font-size: 30px;
+}
+.bold {
+	font-weight: bold;
+}
 .header {
 	position: fixed;
 	z-index: 1;
@@ -28,6 +42,10 @@ body {
 	background: url(../../resources/img/stock/batik.jpg) no-repeat;
 	background-size: cover;
 }
+#photo-gamelan {
+	background: url(../../resources/img/stock/gamelan.jpg) no-repeat;
+	background-size: cover;
+}
 #photo-wayang {
 	background: url(../../resources/img/stock/wayang.jpg) no-repeat;
 	background-size: cover;
@@ -40,15 +58,15 @@ body {
 	background: url(../../resources/img/stock/tarijawa.jpg) no-repeat;
 	background-size: cover;
 }
-#text-culture {
-	position: absolute;
-	z-index: 1;
-	background: rgba(255,255,255,0.5);
+.header-culture {
+	margin-top: 50px;
+}
+
+.text-culture {
+	background: rgba(255,255,255,0.8);
+	color: #333;
 	padding: 5px 20px;
 	border-radius: 10px;
-	top: 50px;
-	left: 80px;
-	font-size: 30px;
 }
 .btn-close {
 	position: absolute;
@@ -153,6 +171,7 @@ body {
 	overflow: hidden;
 }
 .stock-photo-expand {
+	height: 200px;
 	cursor: pointer;
 }
 #btn-indiegogo {
@@ -175,4 +194,9 @@ body {
 	-webkit-filter: grayscale(0%);
 	filter: grayscale(0%);
 	filter: url(desaturate.svg#greyscale);grayscale: 0%;
+}
+#page6-info img {
+	padding: 10px;
+	padding-top: 30px;
+	width: 100%;
 }
