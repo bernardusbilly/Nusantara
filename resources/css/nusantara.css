@@ -70,6 +70,7 @@ h1 {
 }
 .btn-close {
 	position: absolute;
+	z-index: 10000;
 	top: 20px;
 	left: 20px;
 	cursor: pointer;
@@ -184,11 +185,14 @@ h1 {
 	text-align: center;
 }
 .photo-officer {
-	height: 180px;
+	height: 130px;
 	overflow: hidden;
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 	filter: url(desaturate.svg#greyscale);grayscale: 100%;
+}
+.photo-officer-lg {
+	height: 170px;
 }
 .photo-officer:hover {
 	-webkit-filter: grayscale(0%);

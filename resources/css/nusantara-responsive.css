@@ -11,12 +11,24 @@
 	.stock-photo-expand {
 		height: 80px;
 	}
+	.photo-officer {
+		height: 50px;
+	}
+	.photo-officer-lg {
+		height: 150px;
+	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	.stock-photo {
 		height: 150px;
 	}
 	.stock-photo-expand {
+		height: 150px;
+	}
+	.photo-officer {
+		height: 100px;
+	}
+	.photo-officer-lg {
 		height: 150px;
 	}
 }
