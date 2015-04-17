@@ -1,9 +1,11 @@
 /* nusantara-responsive.css*/
 
 @media (max-width: 767px) {
-	#bg-nusantara {
-		margin-top: 50px;
-		width: 100%;
+	h1 {
+		font-size: 20px;
+	}
+	.disclaimer {
+		font-size: 12px;
 	}
 	.stock-photo {
 		height: 60px;
@@ -19,6 +21,12 @@
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
+	h1 {
+		font-size: 30px;
+	}
+	.disclaimer {
+		font-size: 12px;
+	}
 	.stock-photo {
 		height: 150px;
 	}
@@ -33,6 +41,9 @@
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+	h1 {
+		font-size: 40px;
+	}
 	.stock-photo {
 		height: 150px;
 	}
@@ -41,5 +52,10 @@
 	}
 }
 @media (min-width: 1200px) {
-
+	h1 {
+		font-size: 50px;
+	}
+	.disclaimer {
+		font-size: 16px;
+	}
 }

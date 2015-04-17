@@ -12,6 +12,14 @@ function turnOnSound() {
   $('#btn-sound').css("visibility", "visible");
 }
 
+function pauseBGVideo() {
+  player.pauseVideo();
+}
+
+function playBGVideo() {
+  player.playVideo();
+}
+
 $('#btn-sound').click(function() {
   turnOffSound();
   tempSound = false;
@@ -26,12 +34,12 @@ $('.stock-photo-expand').click(function(){
   var toggle = $(this).attr("data-toggle");
   console.log(toggle);
   $('#' + toggle).css("display", "block");
-  turnOffSound();
+  pauseBGVideo();
 });
 
 $('.btn-close').click(function() {
   $(this).parent().css("display","none");
   if (tempSound == true) {
-    turnOnSound();  
+    playBGVideo()
   }
 });

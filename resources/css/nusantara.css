@@ -1,5 +1,5 @@
 body {
-	font-family: roboto;
+	font-family: 'Poiret One';
 	color: #333;
 	text-align: center;
 }
@@ -8,6 +8,13 @@ h1 {
 	font-size: 50px;
 	font-weight: bold;
 }
+
+/* Change from other library */
+.img-cover {
+	font-family: 'roboto';
+}
+/* End of line */
+
 .font14 {
 	font-size: 14px;
 }
@@ -29,6 +36,7 @@ h1 {
 }
 .photo-culture {
 	position: fixed;
+	font-family: 'roboto';
 	text-align: left;
 	display: none;
 	z-index: 1;
@@ -160,12 +168,12 @@ h1 {
 	min-height: 100%;
 	min-width: 100%;
 }
-#bg-nusantara {
-	width: 38%;
-}
 #page3-info {
 	text-align: center;
 	color: #333;
+}
+.disclaimer {
+	font-size: 12px;
 }
 .stock-photo {
 	height: 170px;
@@ -174,9 +182,6 @@ h1 {
 .stock-photo-expand {
 	height: 200px;
 	cursor: pointer;
-}
-#btn-indiegogo {
-	bottom: 10%;
 }
 #page4-info {
 	text-align: center;
