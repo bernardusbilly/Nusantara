@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href='http://fonts.googleapis.com/css?family=Raleway|Roboto:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Fondamento' rel='stylesheet' type='text/css'>
 
     <!-- Bootstrap Core CSS -->
     <link href="resources/css/bootstrap.min.css" rel="stylesheet">
@@ -17,7 +19,9 @@
 
 <body>
 
+<div id="load-page"></div>
 <div id="player" style="position: fixed;"></div>
+
   <div class="container">
       <div class="header">
           <span id="btn-mute" class="glyphicon glyphicon-volume-off"></span>
@@ -25,84 +29,234 @@
       </div>
   </div>
 
-  <div id="photo-angklung" class="photo-culture">
-    <span class="btn-close">&times</span>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-          <br><br><span class="text-culture header-culture font30">Angklung</span>
-          <div class="text-culture font14" style="margin-top: 20px;">
-            Performed by BISA (UC Berkeley). This traditional instrument is made of bamboo.<br>
-            Time: (TBD) <br><br>
-            Performed by professional group Angklung Cendrawasih.<br>
-            Time: (TBD)
+  <div id="photo-borobudur" class="photo-culture">
+    <div class="photo-culture-wrapper">
+      <span class="btn-close">&times</span>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="header-culture">Performances</div>
           </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="padding-top: 10%;">
-          <iframe style="width: 100%; height: 300px;" src="https://www.youtube.com/embed/TYwN8bWEnNs" frameborder="0" allowfullscreen></iframe>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+            <div class="entry-performance">
+              3 PM<br><br>
+              Opening Ceremony<br>
+              Angklung Performance<br>
+              Gamelan Jawa<br><br><br>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+            <div class="entry-performance">
+              4 PM<br><br>
+              Tari Topeng<br>
+              Games<br><br><br>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
+            <div class="entry-performance">
+              5 PM<br><br>
+              Balinese Dance<br>
+              Games<br><br><br>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="hidden-lg hidden-md hidden-sm col-xs-6">
+            <div class="entry-performance">
+              5 PM<br><br>
+              Balinese Dance<br>
+              Games<br><br><br>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+            <div class="entry-performance">
+              6 PM<br><br>
+              Balinese Dance<br>
+              Terang Wulan<br>
+              Angklung Performance<br><br><br>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+            <div class="entry-performance">
+              7 PM<br><br>
+              Betawi Dance<br>
+              Shaman Dance<br>
+              Band Performance<br><br><br>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+            <div class="entry-performance">
+              8 PM<br><br>
+              Band Performance<br>
+              Closing Ceremony<br><br><br>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="photo-angklung" class="photo-culture">
+    <div class="photo-culture-wrapper">
+      <span class="btn-close">&times</span>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+            <div class="header-culture">
+              Angklung
+              <iframe style="width: 100%; height: 350px;" src="https://www.youtube.com/embed/TYwN8bWEnNs?modestbranding=0&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+            <div class="text-culture font14">
+              Performed by Berkeley Indonesian Student Association's student of UC Berkeley. This traditional instrument is made of bamboo. Will be performing a medley of traditional songs from Indonesia.<br>
+              Time: 3:20 PM <br><br>
+              Performed by Arie Quick and a professional group named Angklung Cendrawasih.<br>
+              Time: 6:30 PM
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
   </div>
 
   <div id="photo-gamelan" class="photo-culture">
-    <span class="btn-close">&times</span>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-          <br><br><span class="text-culture header-culture font30">Gamelan Jawa</span>
-          <div class="text-culture font14" style="margin-top: 20px;">
-            Performed by Professor Midiyanto (midiyanto@berkeley.edu) and his professional group. This traditional instrument is made up of percussive instruments such as metallophones, hand played drums, xylophones, bamboo flutes, and more.<br>
-            Time: (TBD)
+    <div class="photo-culture-wrapper">
+      <span class="btn-close">&times</span>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+            <div class="header-culture">
+              Gamelan Jawa
+              <iframe style="width: 100%; height: 350px;" src="https://www.youtube.com/embed/2937xfI_kKI?modestbranding=0&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="padding-top: 10%;">
-          <iframe style="width: 100%; height: 300px;" src="https://www.youtube.com/embed/2937xfI_kKI" frameborder="0" allowfullscreen></iframe>
+
+          <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+            <div class="text-culture font14">
+              Performed by Professor Midiyanto (midiyanto@berkeley.edu) and his professional group. This traditional instrument is made up of percussive instruments such as metallophones, hand played drums, xylophones, bamboo flutes, and more.<br>
+              Time: 3:40 PM
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
   </div>
 
-  <div id="photo-wayang" class="photo-culture">
-    <span class="btn-close">&times</span>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-          <br><br><span class="text-culture header-culture font30">Wayang</span>
-          <div class="text-culture font14" style="margin-top: 20px;">
+  <div id="photo-taritopeng" class="photo-culture">
+    <div class="photo-culture-wrapper">
+      <span class="btn-close">&times</span>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+            <div class="header-culture">
+              Tari Topeng
+              <iframe style="width: 100%; height: 350px;" src="https://www.youtube.com/embed/ZzxNbx5ALzI?modestbranding=0&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+            </div>
           </div>
+
+          <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+            <div class="text-culture font14">
+              Tari Topeng: Performed by a son of by Professor Ninik Lunde (bunga@berkeley.edu) named Ethan Dierauf and Lestari Indonesia, a professional group. This traditional dance originated from West Java.<br>
+              Time: 4:00 PM
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
   </div>
 
   <div id="photo-tarijawa" class="photo-culture">
-    <span class="btn-close">&times</span>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-          <br><br><span class="text-culture header-culture font30">Tari Tarian</span>
-          <div class="text-culture font14" style="margin-top: 20px;">
-            Tari Topeng: Performed by Professor Ninik Lunde (bunga@berkeley.edu) and Lestari Indonesia, a professional group. This traditional dance originated from West Java.<br>
-            Time: (TBD) <br><br>
-            Gambyong Pareanom: Performed by Professor Ninik Lunde (bunga@berkeley.edu) and Lestari Indonesia, a professional group. This traditional dance originated from Surakarta a city in Central Java.<br>
-            Time: (TBD) <br><br>
-            Balinese Dance: Performed by Gamelan Sekar Jaya, a professional dance group.<br>
-            Time: (TBD) <br><br>
-            Terang Wulan: Performed by Professor Ninik Lunde (bunga@berkeley.edu) and Lestari Indonesia, a professional group. This traditional dance originated from Central Java.<br>
-            Time: (TBD) <br><br>
-            Betawi Dance: Performed by De Anza College. This is a traditional dance originated from Batavia.<br>
-            Time: (TBD) <br><br>
-            Shaman Dance: Performed by Diablo Valley College. This is a traditional dance originated from Aceh.<br>
-            Time: (TBD) <br><br>
+    <div class="photo-culture-wrapper">
+      <span class="btn-close">&times</span>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+           <div class="header-culture">
+              Tari Tarian
+              <iframe style="width: 100%; height: 350px;" src="https://www.youtube.com/embed/mZ2YxXbWY1I?modestbranding=0&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="padding-top: 10%;">
-          <iframe style="width: 100%; height: 300px;" src="https://www.youtube.com/embed/mZ2YxXbWY1I" frameborder="0" allowfullscreen></iframe>
+
+          <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+            <div class="text-culture" style="font-size: 12px;">
+              Balinese Dance: Performed by Gamelan Sekar Jaya, a professional dance group.<br>
+              Time: 5:00 PM <br><br>
+              Terang Wulan: Performed Professor Ninik Lunde (bunga@berkeley.edu) and Lestari Indonesia, a professional group. This traditional dance originated from Central Java.<br>
+              Time: 6:15 PM <br><br>
+              Compilation Dance: Performed by Foothill College (Led by Carissa Alanda). This will be a compilation of various regional dances. <br>
+              Time: 06:45 PM
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
   </div>
+
+  <div id="photo-shamandance" class="photo-culture">
+    <div class="photo-culture-wrapper">
+      <span class="btn-close">&times</span>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+            <div class="header-culture">
+              Shaman Dance
+              <iframe style="width: 100%; height: 350px;" src="https://www.youtube.com/embed/nJeEbNKMAgg?modestbranding=0&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+            <div class="text-culture font14">
+              Shaman Dance: Performed by Diablo Valley College (Led by Michelle Adiprawira). This is a traditional dance originated from Aceh.<br>
+              Time: 7:15 PM
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="photo-taribetawi" class="photo-culture">
+    <div class="photo-culture-wrapper">
+      <span class="btn-close">&times</span>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+            <div class="header-culture">
+              Tari Jawa
+              <iframe style="width: 100%; height: 350px;" src="https://www.youtube.com/embed/fyqiCAbhIm8?modestbranding=0&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+            <div class="text-culture font14">
+              Betawi Dance: Performed by De Anza College (Led by Claudia Tamara). This is a traditional dance originated from Batavia.<br>
+              Time: 7:00 PM
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 <div class="onePageScroll">
@@ -118,7 +272,10 @@
     <div id="page2-info">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="padding-top: 18%;">
+          <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="padding-top: 8%;">
+            Berkeley Indonesian Student Association<br>
+            <span style="font-size: 12px;">presents</span><br>
+            <span style="font-family: 'Amatic SC', cursive; font-size: 80px;">Nusantara</span><br>
             @ Memorial Glade, UC Berkeley<br>
             Saturday, April 25th 2015<br>
             3 PM - 9 PM<br><br>
@@ -131,7 +288,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <img src="./resources/img/nusantara.jpg" style="width: 100%;">
+            <img src="./resources/img/logo/nusantara.png" style="width: 100%;">
           </div>
         </div>
       </div>
@@ -140,36 +297,58 @@
 
   <section class="page3">
     <div id="page3-info">
-      <h1>Performances</h1>
-      <span class="disclaimer">We do not claim these photos.</span><br><br>
-      <div class="container" style="padding-top: 10px;">
-        <div class="row" style="padding-bottom: 30px;">
+      <div class="container">
 
-          <div class="col-lg-6 col-md-6 col-sm-6 col-sm-6">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="stock-photo stock-photo-expand stock-photo-header img-cover" data-toggle="photo-borobudur">
+              <div class="img-text">Nusantara Performances</div>
+              <img src="./resources/img/stock/borobudur-sm.jpg">
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style="padding-top: 20px;">
+
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
             <div class="stock-photo stock-photo-expand img-cover img-zoom-in" data-toggle="photo-angklung">
               <div class="img-text">Angklung</div>
-              <img src="./resources/img/stock/angklung.jpg">
+              <img src="./resources/img/stock/angklung.jpg" style="width: 500%;">
             </div>
           </div>
 
-          <div class="col-lg-6 col-md-6 col-sm-6 col-sm-6">
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
             <div class="stock-photo stock-photo-expand img-cover img-zoom-in" data-toggle="photo-gamelan">
               <div class="img-text">Gamelan Jawa</div>
-              <img src="./resources/img/stock/gamelan.jpg">
+              <img src="./resources/img/stock/gamelan.jpg" style="width: 500%;">
             </div>
           </div>
           
-          <div class="col-lg-6 col-md-6 col-sm-6 col-sm-6">
-            <div class="stock-photo stock-photo-expand img-cover img-zoom-in" data-toggle="photo-wayang">
-              <div class="img-text">Wayang</div>
-              <img src="./resources/img/stock/wayang.jpg">
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+            <div class="stock-photo stock-photo-expand img-cover img-zoom-in" data-toggle="photo-taritopeng">
+              <div class="img-text">Tari Topeng</div>
+              <img src="./resources/img/stock/taritopeng-preview.jpg" style="width: 250%;">
             </div>
           </div>
           
-          <div class="col-lg-6 col-md-6 col-sm-6 col-sm-6">
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
             <div class="stock-photo stock-photo-expand img-cover img-zoom-in" data-toggle="photo-tarijawa">
-              <div class="img-text">Tari Tarian</div>
-              <img src="./resources/img/stock/tarijawa.jpg">
+              <div class="img-text">Tari Jawa</div>
+              <img src="./resources/img/stock/tarijawa.jpg" style="width: 500%;">
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+            <div class="stock-photo stock-photo-expand img-cover img-zoom-in" data-toggle="photo-shamandance">
+              <div class="img-text">Shaman Dance</div>
+              <img src="./resources/img/stock/shamandance-preview.jpg" style="width: 200%;">
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+            <div class="stock-photo stock-photo-expand img-cover img-zoom-in" data-toggle="photo-taribetawi">
+              <div class="img-text">Tari Betawi</div>
+              <img src="./resources/img/stock/taribetawi.jpg" style="width: 500%;">
             </div>
           </div>
 
@@ -180,10 +359,10 @@
 
   <section class="page4">
     <div id="page4-info">
-      <h1>Food on the Event</h1>
+      <h1>Traditional Indonesian Cuisine</h1>
       <span class="disclaimer">We do not claim these photos.</span><br><br>
       <div class="container" style="padding-top: 30px;">
-        <div class="row" style="padding-bottom: 30px;">
+        <div class="row">
           <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
             <div class="stock-photo img-cover img-zoom-in">
               <div class="img-text">Bakmi Pangsit</div>
@@ -244,7 +423,7 @@
       <h1>Nusantara Coordinator</h1>
       <div class="container">
 
-        <div class="row" style="padding-bottom: 20px;">
+        <div class="row">
           <div class="col-lg-2 col-lg-offset-4 col-md-2 col-md-offset-4 col-sm-3 col-sm-offset-3 col-xs-6">
             <div class="photo-officer photo-officer-lg img-cover">
               <div class="img-text">Gian Wirjawan<br>BISA President<br>+1(510)590-0219</div>
@@ -259,7 +438,7 @@
           </div>
         </div>
 
-        <div class="row" style="padding-bottom: 20px;">
+        <div class="row" style="padding-top: 20px;">
           <div class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-3">
             <div class="photo-officer img-cover">
               <div class="img-text">Latasha Harahap<br>Event Organizer</div>
@@ -301,7 +480,7 @@
             </div>
           </div>
 
-          <div class="col-lg-2 col-lg-offset-2 col-md-2 col-md-offset-2 col-sm-2 col-sm-offset-1 col-xs-3">
+          <div class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-3">
             <div class="photo-officer img-cover">
               <div class="img-text">Hendo Lim<br>Marketing</div>
               <img src="./resources/img/officer/hendolim.jpg">
@@ -325,6 +504,12 @@
               <img src="./resources/img/officer/adrianasalim.jpg">
             </div>
           </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
+            <div class="photo-officer img-cover">
+              <div class="img-text">Farandy Ramadhana<br>BISA Website Coordinator</div>
+              <img src="./resources/img/officer/farandyramadhana.jpg">
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -332,10 +517,13 @@
 
   <section class="page6">
     <div id="page6-info">
-      <h1>Sponsor</h1>
+      <h1>Sponsored By</h1>
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-12">
+            <img src="./resources/img/sponsor/sinarmas.png">
+          </div>
+          <!-- <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
             <img src="./resources/img/logo/bisa-batik.png">
           </div>
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
@@ -346,7 +534,7 @@
           </div>
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
             <img src="./resources/img/logo/bisa-batik.png">
-          </div>
+          </div> -->
         </div>
       </div>
     </div>

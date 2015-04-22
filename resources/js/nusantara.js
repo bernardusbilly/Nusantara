@@ -20,6 +20,17 @@ function playBGVideo() {
   player.playVideo();
 }
 
+/* Start js*/
+
+$(window).load(function() {
+  // remove the loading screen when the page is ready
+  $('#load-page').css("display", "none");
+});
+
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
+
 $('#btn-sound').click(function() {
   turnOffSound();
   tempSound = false;
@@ -38,7 +49,7 @@ $('.stock-photo-expand').click(function(){
 });
 
 $('.btn-close').click(function() {
-  $(this).parent().css("display","none");
+  $(this).parent().parent().css("display","none");
   if (tempSound == true) {
     playBGVideo()
   }

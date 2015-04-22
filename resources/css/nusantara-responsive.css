@@ -13,6 +13,12 @@
 	.stock-photo-expand {
 		height: 80px;
 	}
+	.stock-photo-header {
+		height: 80px;
+	}
+	.entry-performance {
+		font-size: 14px;
+	}
 	.photo-officer {
 		height: 50px;
 	}
@@ -33,6 +39,12 @@
 	.stock-photo-expand {
 		height: 150px;
 	}
+	.stock-photo-header {
+		height: 150px;
+	}
+	.entry-performance {
+		font-size: 16px;
+	}
 	.photo-officer {
 		height: 100px;
 	}
@@ -49,6 +61,12 @@
 	}
 	.stock-photo-expand {
 		height: 150px;
+	}
+	.stock-photo-header {
+		height: 150px;
+	}
+	.entry-performance {
+		font-size: 18px;
 	}
 }
 @media (min-width: 1200px) {
