@@ -4,6 +4,10 @@
 	h1 {
 		font-size: 20px;
 	}
+	#page3-info,
+	#page4-info {
+		font-size: 12px;
+	}
 	.disclaimer {
 		font-size: 12px;
 	}
@@ -11,7 +15,7 @@
 		height: 60px;
 	}
 	.stock-photo-expand {
-		height: 80px;
+		height: 100px;
 	}
 	.stock-photo-header {
 		height: 80px;
@@ -30,6 +34,10 @@
 	h1 {
 		font-size: 30px;
 	}
+	#page3-info,
+	#page4-info {
+		font-size: 15px;
+	}
 	.disclaimer {
 		font-size: 12px;
 	}
@@ -37,7 +45,7 @@
 		height: 150px;
 	}
 	.stock-photo-expand {
-		height: 150px;
+		height: 250px;
 	}
 	.stock-photo-header {
 		height: 150px;
@@ -56,11 +64,15 @@
 	h1 {
 		font-size: 40px;
 	}
+	#page3-info,
+	#page4-info {
+		font-size: 18px;
+	}
 	.stock-photo {
 		height: 150px;
 	}
 	.stock-photo-expand {
-		height: 150px;
+		height: 300px;
 	}
 	.stock-photo-header {
 		height: 150px;

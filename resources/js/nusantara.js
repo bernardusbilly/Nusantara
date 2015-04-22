@@ -22,11 +22,6 @@ function playBGVideo() {
 
 /* Start js*/
 
-$(window).load(function() {
-  // remove the loading screen when the page is ready
-  $('#load-page').css("display", "none");
-});
-
 $(function () {
   $('[data-toggle="popover"]').popover()
 })
@@ -53,4 +48,8 @@ $('.btn-close').click(function() {
   if (tempSound == true) {
     playBGVideo()
   }
+});
+
+$('.trigger-hidden-profile').click(function() {
+  $('.hidden-profile').css("display", "block");
 });

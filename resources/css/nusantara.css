@@ -1,5 +1,5 @@
 body {
-	font-family: 'Poiret One';
+	font-family: 'Poiret One', cursive;
 	color: #333;
 	text-align: center;
 }
@@ -12,6 +12,10 @@ h1 {
 /* Change from other library */
 .img-cover {
 	font-family: 'roboto';
+}
+.img-text,
+.img-text-inverse {
+	font-family: 'Fondamento', cursive;
 }
 /* End of line */
 
@@ -137,7 +141,8 @@ h1 {
 	overflow: hidden;
 }
 .page2 {
-	font-size: 20px;
+	font-size: 25px;
+	font-weight: bold;
 	background: url(../../resources/img/stock/batik-wallpaper-hd.jpg) no-repeat;
 	background-size: cover;
 	overflow: hidden;
@@ -223,7 +228,11 @@ h1 {
 }
 #page3-info {
 	text-align: center;
+	font-size: 30px;
 	color: #333;
+}
+#page4-info {
+	font-size: 30px;
 }
 .disclaimer {
 	font-size: 12px;
@@ -239,6 +248,7 @@ h1 {
 .stock-photo-header {
 	cursor: pointer;
 	height: 250px;
+	text-align: center;
 }
 #page4-info {
 	text-align: center;
@@ -255,6 +265,9 @@ h1 {
 }
 .photo-officer-lg {
 	height: 170px;
+}
+.hidden-profile {
+	display: none;
 }
 .photo-officer:hover {
 	/*-webkit-filter: grayscale(0%);
