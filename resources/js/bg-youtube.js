@@ -46,6 +46,6 @@ function stopVideo() {
   player.stopVideo();
 }
 function playlist() {
-  player.loadPlaylist(['wuRQoBlZQTA'/*, 'zlAJ11-nwNc'*/]);
+  player.loadPlaylist(['2EN5Qn1ft0M'/*,'wuRQoBlZQTA'*/]);
   player.setLoop(true);
 }

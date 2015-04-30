@@ -15,7 +15,13 @@ h1 {
 }
 .img-text,
 .img-text-inverse {
-	font-family: 'Fondamento', cursive;
+	font-family: 'Poiret One', cursive;
+}
+.img-overlay:hover .img-text {
+	top: 40%;
+}
+.img-cover:hover .img-text {
+	top: 40%;
 }
 /* End of line */
 
@@ -107,6 +113,10 @@ h1 {
 	background-size: cover;
 	z-index: 1000;
 }
+.iframe-youtube {
+	width: 100%;
+	height: 350px;
+}
 .header-culture {
 	text-align: center;
 	font-family: 'Fondamento', cursive;
@@ -147,8 +157,7 @@ h1 {
 	background-size: cover;
 	overflow: hidden;
 }
-.page4,
-.page6 {
+.page4 {
 	text-align: center;
 	padding-top: 30px;
 	background: rgba(255,255,255,0.97);
@@ -158,6 +167,9 @@ h1 {
 	text-align: center;
 	background: rgba(230,230,230,0.97);
 	overflow: hidden;
+}
+.row-separator {
+	padding-top: 20px;
 }
 .page5 {
 	text-align: center;
@@ -231,6 +243,19 @@ h1 {
 	font-size: 30px;
 	color: #333;
 }
+#preview-angklung,
+#preview-gamelan,
+#preview-tarijawa,
+#preview-taribetawi {
+	width: 500%;
+}
+#preview-taritopeng,
+#preview-tarisaman {
+	width: 250%;
+}
+
+/* Page 4 */
+
 #page4-info {
 	font-size: 30px;
 }
@@ -274,8 +299,18 @@ h1 {
 	filter: grayscale(0%);
 	filter: url(desaturate.svg#greyscale);grayscale: 0%;*/
 }
+.page6 {
+	text-align: center;
+	padding-top: 30px;
+	background: rgba(255,255,255,1);
+	overflow: hidden;
+}
 #page6-info img {
 	padding: 10px;
 	padding-top: 30px;
 	width: 100%;
+}
+.icon-sponsor {
+	height: 200px;
+	overflow: hidden;
 }

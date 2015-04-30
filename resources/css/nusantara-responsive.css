@@ -4,15 +4,43 @@
 	h1 {
 		font-size: 20px;
 	}
+
+	/* Bootstrap */
+	.col-xs-6:nth-child(odd) {
+		padding-right: 5px;
+	}
+	.col-xs-6:nth-child(even) {
+		padding-left: 5px;
+	}
+	.col-xs-3:nth-child(odd) {
+		padding-right: 5px;
+	}
+	.col-xs-3:nth-child(even) {
+		padding-left: 5px;
+	}
+	.row-separator {
+		padding-top: 0;
+	}
+	/* End of Bootstrap */
+
+	.iframe-youtube {
+		height: 100px;
+	}
+	.header-culture {
+		font-size: 40px;
+	}
+	.text-culture {
+		font-size: 14px;
+	}
 	#page3-info,
 	#page4-info {
-		font-size: 12px;
+		font-size: 18px;
 	}
 	.disclaimer {
 		font-size: 12px;
 	}
 	.stock-photo {
-		height: 60px;
+		height: 80px;
 	}
 	.stock-photo-expand {
 		height: 100px;
@@ -20,11 +48,26 @@
 	.stock-photo-header {
 		height: 80px;
 	}
+	.page4,
+	.page5,
+	.page6 {
+		padding-top: 0;
+	}
+	#preview-angklung,
+	#preview-gamelan,
+	#preview-tarijawa,
+	#preview-taribetawi {
+		width: 100%;
+	}
+	#preview-taritopeng,
+	#preview-tarisaman {
+		width: 100%;
+	}
 	.entry-performance {
 		font-size: 14px;
 	}
 	.photo-officer {
-		height: 50px;
+		height: 70px;
 	}
 	.photo-officer-lg {
 		height: 150px;
